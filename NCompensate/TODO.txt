@@ -1,0 +1,11 @@
+TODO List:
+
+1: Support cancellation token
+2: Add InvocationContext 
+    Description/Thoughts:
+    - Store suppressed exceptions
+    - Provide some sort of status (Transaction completed / aborted / failed)
+3: Add Predicate to evaluate success of object from action 
+4: Add a way to access objects from actions after invocation
+    - should 2nd invoked object be able to access 1st invoked object?
+5: Remove poor mans object oriented programming and add factory for ICompensable
